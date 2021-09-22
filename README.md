@@ -20,3 +20,4 @@ Inserting the data in JPDB and Showing the result was implemented in this Projec
 ## Output Images :
 
 ![Database](Output_Images/Database.png)
+![Form](Output_Images/Form.png)
