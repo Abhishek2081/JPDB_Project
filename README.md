@@ -18,5 +18,5 @@ This Project is useful for learning basics of JsonPowerDB (JPDB) and it's implem
 
 ## Output Images :
 
-[Database](Output_Images/Database.png)
-[Form](Output_Images/Form.png)
+![Database](Output_Images/Database.png)
+![Form](Output_Images/Form.png)
