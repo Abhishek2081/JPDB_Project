@@ -1,7 +1,6 @@
 # JPDB_Project
 
-This Project is useful for learning basics of JsonPowerDB (JPDB) and it's implementation.
-Inserting the data in JPDB and Showing the result was implemented in this Project.
+This Project is useful for learning basics of JsonPowerDB (JPDB) and it's implementation. Inserting the data in JPDB and Showing the result was implemented in this Project. We can use JPDB for storing different type of data with ease as well as we can use Talend API tester for working with the data.  
 
 [Link to Documentation](http://login2explore.com/jpdb/docs.html)
 
@@ -19,5 +18,5 @@ Inserting the data in JPDB and Showing the result was implemented in this Projec
 
 ## Output Images :
 
-![Database](Output_Images/Database.png)
-![Form](Output_Images/Form.png)
+[Database](Output_Images/Database.png)
+[Form](Output_Images/Form.png)
