@@ -1,7 +1,7 @@
 # JPDB_Project
 
-## This Project is useful for learning basics of JsonPowerDB (JPDB) and it's implementation.
-## Inserting the data in JPDB and Showing the result was implemented in this Project.
+This Project is useful for learning basics of JsonPowerDB (JPDB) and it's implementation.
+Inserting the data in JPDB and Showing the result was implemented in this Project.
 
 [Link to Documentation](http://login2explore.com/jpdb/docs.html)
 
@@ -16,3 +16,4 @@
 - It is built on top of one of the fastest and real-time data indexing engine - PowerIndeX.
 - It is low level (raw) form of data and is also human readable.
 - It helps developers in faster coding, in-turn reduces development cost.
+
