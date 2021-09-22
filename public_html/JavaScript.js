@@ -56,3 +56,23 @@ function resetForm() {
     $("#empAge").val("");
     $("#empId").focus();
 }
+
+function showEmployee() {
+    
+    var reqId = $("#empRecord").val();
+    if (reqId === "") {
+        alert("Employee Record is Required Value");
+        $("#empRecord").focus();
+        return "";
+    }
+    
+    var getReqStr = createGET_BY_RECORDRequest("90936125|-31948821635901029|90944141", "TEST", "EMP-REL", reqId, "true", "true");
+    alert("Verify Data : \n" + getReqStr);
+    jQuery.ajaxSetup({async: false});
+    var resultObj = executeCommandAtGivenBaseUrl(getReqStr, "http://api.login2explore.com:5577", "/api/irl");
+    var obj = JSON.stringify(resultObj);
+    jQuery.ajaxSetup({async: true});
+    
+    alert("Record Result : " + obj);
+    document.getElementById(empForm).reset();
+}
